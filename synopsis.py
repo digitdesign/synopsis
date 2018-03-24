@@ -42,6 +42,14 @@ URLS_SHORT = []
 
 
 # Function definitions
+def api_key_verify():
+    if config.API_KEY == 'YOUR_API_KEY_HERE':
+        print('Please configure you API Key in the config.py file.')
+        sys.exit()
+    else:
+        pass
+
+
 def url_shorten(target):
     post_url = API_URL.format(API_KEY)
     headers = {'content-type': 'application/json'}
@@ -65,6 +73,7 @@ def csv_export():
 
 
 # Function calls
+api_key_verify()
 url_shorten_batch()
 csv_export()
 
