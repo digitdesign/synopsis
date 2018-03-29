@@ -18,7 +18,7 @@ sleep 1
 echo -n "Your API Key → "
 read APIKEY
 sed -i -e "s/YOUR_API_KEY_HERE/$APIKEY/g" config.py
-printf "\\033[0;33mCleaning up installation\\033[0m\\n"
+printf "\\033[92mCleaning up installation\\033[0m\\n"
 sleep 1
 rm -rf 'config.py-e'
 rm -rf 'tools'
