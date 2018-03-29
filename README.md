@@ -6,10 +6,16 @@
 <hr />
 
 ### Installation
-- [Download latest release](https://github.com/digitdesign/synopsis/archive/master.zip) or;
-- Clone the repository via command line:
+Synopsis can be installed via the command-line with either curl or wget.
+
+##### Via cURL
 ```sh
-git clone https://github.com/digitdesign/synopsis.git
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/digitdesign/synopsis/master/tools/install.sh)"
+```
+
+##### Via Wget
+```sh
+sh -c "$(wget https://raw.githubusercontent.com/digitdesign/synopsis/master/tools/install.sh -O -)"
 ```
 
 ### Contributing
@@ -19,7 +25,7 @@ Feel free to dive in! [Open an issue](https://github.com/digitdesign/synopsis/is
 © 2016-2018, Go Digit General Insurance Ltd. or its affiliates
 
 ### Acknowledgement
-This project is created and maintained by [Digit Design](https://godigit.design/).
+This project is created and maintained by [Shaan Shivanandan](https://github.com/shaanshivanandan/).
 
 ### Support
 [Send support request →](mailto:shaan.shivanandan@godigit.com?Subject=Support%3A%20Synopsis)
