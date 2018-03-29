@@ -15,8 +15,7 @@ cd synopsis;
 clear
 printf "\\033[0;33mConfiguration\\033[0m\\n"
 sleep 1
-echo -n "Your API Key → "
-read APIKEY
+echo "Your API Key → "
 sed -i -e "s/YOUR_API_KEY_HERE/$APIKEY/g" config.py
 printf "\\033[0;33mCleaning up installation\\033[0m\\n"
 sleep 1
