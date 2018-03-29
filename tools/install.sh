@@ -21,7 +21,9 @@ sleep 1
 rm -rf 'config.py-e'
 rm -rf 'tools'
 rm -rf '.git'
+rm -rf 'LICENSE.md'
+rm -rf 'README.md'
 clear
 printf "\\033[0;32mSetup Successful\\033[0m\\n"
-sleep 1
+sleep 0.5
 echo "You’re done! Simply replace the ‘records.csv’ file with your desired list of URLs and run __init__.py…"
