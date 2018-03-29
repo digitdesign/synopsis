@@ -6,7 +6,7 @@
 
 # Package information
 __author__ = 'Go Digit General Insurance Ltd.'
-__version__ = '1.1.5'
+__version__ = '1.2.0'
 __status__ = 'Production'
 __maintainer__ = 'Shaan Shivanandan'
 __email__ = 'shaan.shivanandan@godigit.com'
