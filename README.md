@@ -5,6 +5,18 @@
 <br />
 <hr />
 
+### Prerequisites
+- Python 3.xx
+- 'Pandas' module for Python
+```sh
+pip3 install pandas
+```
+
+##### Via cURL
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/digitdesign/synopsis/master/tools/install.sh)"
+```
+
 ### Installation
 Synopsis can be installed via the command-line with either curl or wget.
 
@@ -18,11 +30,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/digitdesign/synopsis/maste
 sh -c "$(wget https://raw.githubusercontent.com/digitdesign/synopsis/master/tools/install.sh -O -)"
 ```
 
+### Creator(s)
+- Shaan Shivanandan
+- Vineet Bhardwaj
+- Satyanarayana Nalluri
+
 ### Contributing
 Feel free to dive in! [Open an issue](https://github.com/digitdesign/synopsis/issues/new/) or submit a PR.
 
 ### License
-© 2016-2018, Go Digit General Insurance Ltd. or its affiliates
+Copyright (c) Go Digit General Insurance Ltd. or its affiliates
 
 ### Acknowledgement
 This project is created and maintained by [Shaan Shivanandan](https://github.com/shaanshivanandan/).
