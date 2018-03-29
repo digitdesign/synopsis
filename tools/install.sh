@@ -15,7 +15,7 @@ clear
 printf "\\033[0;33mConfiguration\\033[0m\\n"
 echo -n "Your API Key → "
 read APIKEY
-sed -i "s/YOUR_API_KEY_HERE/$APIKEY/g" config.py
+sed "s/YOUR_API_KEY_HERE/$APIKEY/g" config.py
 clear
 printf "\\033[0;33mSetup Successful\\033[0m\\n"
 echo "You're done! Simply replace the 'records.csv' file with your desired list of URLs and run __init__.py"
