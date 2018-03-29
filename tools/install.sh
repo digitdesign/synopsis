@@ -26,5 +26,5 @@ clear
 echo
 printf "\\033[0;32mSetup Successful\\033[0m\\n"
 sleep 1
-echo "You're done! Simply replace the 'records.csv' file with your desired list of URLs and run __init__.py"
+echo "You’re done! Simply replace the ‘records.csv’ file with your desired list of URLs and run __init__.py"
 echo
