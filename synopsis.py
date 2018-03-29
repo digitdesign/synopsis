@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Description
-"""Python3 solution for batch URL shortening using Google’s URL Shortener API (https://goo.gl/)."""
+"""Python3 solution for batch URL shortening using Google’s URL Shortening API (https://goo.gl/)."""
 
 # Package information
 __author__ = 'Go Digit General Insurance Ltd.'
@@ -42,9 +42,9 @@ URLS_SHORT = []
 
 
 # Function definitions
-def api_key_verify():
-    if config.API_KEY == 'YOUR_API_KEY_HERE':
-        print('Please configure you API Key in the config.py file.')
+def api_key_validate():
+    if API_KEY == 'YOUR_API_KEY_HERE':
+        print('Please configure API key in the config.py file.')
         sys.exit()
     else:
         pass
@@ -73,7 +73,7 @@ def csv_export():
 
 
 # Function calls
-api_key_verify()
+api_key_validate()
 url_shorten_batch()
 csv_export()
 

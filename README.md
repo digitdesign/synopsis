@@ -9,11 +9,11 @@
 - [Download latest release](https://github.com/digitdesign/digitxd/archive/master.zip) or;
 - Clone the repository via command line:
 ```sh
-git clone https://github.com/digitdesign/synopsis.git
+git clone https://github.com/digitdesign/digitxd.git
 ```
 
 ### Contributing
-Feel free to dive in! [Open an issue](https://github.com/digitdesign/synopsis/issues/new/) or submit a PR.
+Feel free to dive in! [Open an issue](https://github.com/digitdesign/digitxd/issues/new/) or submit a PR.
 
 ### License
 © 2016-2018, Go Digit General Insurance Ltd. or its affiliates
@@ -22,4 +22,4 @@ Feel free to dive in! [Open an issue](https://github.com/digitdesign/synopsis/is
 This project is created and maintained by [Digit Design](https://godigit.design/).
 
 ### Support
-[Send support request →](mailto:shaan.shivanandan@godigit.com?Subject=Support%3A%20Synopsis)
+[Send support request →](mailto:shaan.shivanandan@godigit.com?Subject=Support%3A%20Digit%20XD)
