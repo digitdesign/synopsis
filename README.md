@@ -12,11 +12,6 @@
 pip3 install pandas
 ```
 
-##### Via cURL
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/digitdesign/synopsis/master/tools/install.sh)"
-```
-
 ### Installation
 Synopsis can be installed via the command-line with either curl or wget.
 
